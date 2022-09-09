@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Regression">
+  
+  
+  
+  <test name="Chrome">           
+       
+        <classes>
+      <class name="com.testjcp.Search"/>
+       </classes>
+        </test><!-- Test-->
+        
+        
+        <test name="Firefox">               
+        <classes>
+     <class name="com.testjcp.Search"/>
+       </classes>
+       
+  
+  <!-- <packages>
+      <package name="com.testng.test"/>
+      <package name="com.testng1"/>
+  </packages> --> 
+  <!--  <classes>
+      <class name="com.testng.test.FirstTest"/>
+       <class name="com.testng.test.SecondTest"/>
+        <class name="com.testng1.ThirdTest">
+        <methods>
+        <include name="thirdTest1"/>
+        <include name="thirdTest"/>
+        </methods>
+        </class>
+    </classes> 
+  </test>  Test -->
+  
+ <!-- <test name="Test2"> -->
+  <!-- <packages>
+      <package name="com.testng.test"/>
+     
+  </packages> -->
+        </test>
+  
+  
+  
+</suite> <!-- Suite -->
